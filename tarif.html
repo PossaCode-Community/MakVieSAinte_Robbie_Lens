@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarif | Robbie Lens</title>
+  <!-- Theme couleur  -->
+  <meta name="theme-color" content="#a5b4fc" />
+  <meta name="msapplication-TileColor" content="#a5b4fc" />
+  <!--  Favicon  -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="assets/img/logo.png">
+  <!-- link css -->
+  <link href="dist/output.css" rel="stylesheet" />
+  <!-- import icone bootstrap -->
+  <link rel="stylesheet" href="assets/import/icones/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="py-9">
+    <div class="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between lg:items-center">
+      <!-- logo -->
+      <div class="flex justify-center lg:justify-normal">
+        <a href="index.html">
+          <img src="./assets/img/logo.png" alt="logo" width="90px" />
+        </a>
+      </div>
+
+      <div class="flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0">
+        <!-- mobile nav -->
+        <nav
+          class="mnav bg-white fixed w-[300px] top-0 h-screen -left-[300px] shadow-2xl lg:hidden transition-all duration-300 z-20">
+          <!-- nav trigger btn phone -->
+          <div
+            class="mnav__close-btn bg-primary w-16 h-16 relative -right-full top-8 flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all pr-2">
+            <i class="bi bi-filter-right mnav__close-btn-icon text-white text-4xl"></i>
+          </div>
+
+          <!-- logo, list nav, form -->
+          <div class="px-12 flex flex-col gap-y-12 h-full">
+            <!-- logo -->
+            <a href="index.html">
+              <img src="./assets/img/logo.png" alt="logo" />
+            </a>
+
+            <!-- List -->
+            <ul class="flex flex-col gap-x-5 gap-y-3">
+              <li>
+                <a href="index.html"
+                  class="text-black hover:text-secondary text-2xl mb-6 capitalize transition-all duration-300">Accueil</a>
+              </li>
+              <li>
+                <a href="apropos.html"
+                  class="text-black hover:text-secondary text-2xl mb-6 capitalize transition-all duration-300">à
+                  propos</a>
+              </li>
+              <li>
+                <a href="tarif.html"
+                  class="text-black hover:text-secondary text-2xl mb-6 capitalize transition-all duration-300">Tarifs</a>
+              </li>
+              <li>
+                <a href="portfolio.html"
+                  class="text-black hover:text-secondary text-2xl mb-6 capitalize transition-all duration-300">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- desktop nav -->
+        <nav class="lg:flex lg:items-center lg:justify-between hidden">
+          <!-- List -->
+          <ul class="flex gap-x-7">
+            <li>
+              <a href="index.html"
+                class="pr-9 text-black text-xl hover:text-secondary capitalize transition-all duration-300">Accueil</a>
+            </li>
+            <li>
+              <a href="apropos.html"
+                class="pr-9 text-black text-xl hover:text-secondary capitalize transition-all duration-300">à
+                propos</a>
+            </li>
+            <li>
+              <a href="tarif.html"
+                class="pr-9 text-black text-xl hover:text-secondary capitalize transition-all duration-300">Tarifs</a>
+            </li>
+            <li>
+              <a href="portfolio.html"
+                class="pr-9 text-black text-xl hover:text-secondary capitalize transition-all duration-300">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- hero -->
+  <section class="hero bg-primary py-[100px] xl:pt-12 xl:pb-0 overflow-hidden">
+    <div class="container mx-auto flex flex-col h-full pb-48 pt-12 max-md:pb-10 max-md:pt-3 max-md:px-5 max-lg:px-5">
+      <div class="container w-full flex justify-between mb-10 mx-0">
+        <h1 class="titre-hero h1 font-light text-secondary text-left max-lg:text-center max-lg:text-[50px]">Tarifs</h1>
+        <!-- btn -->
+        <button type="button" class="titre-hero btn btn-lg bg-custom text-white uppercase mx-auto xl:mx-0">
+          <a href="index.html#contact">
+            Contactez-moi
+          </a>
+        </button>
+      </div>
+
+      <div class="flex justify-between gap-8 mt-10 flex-wrap">
+        <!-- 1 -->
+        <div class="card w-1/4 max-lg:w-full border-r-[1px] border-b-[1px] border-accent pr-9 pb-10">
+          <h3 class="h3 text-accent font-light">Shooting photo</h3>
+
+          <p class="text-white text-sm font-extralight mt-4 mb-8">Pour capturer vos moments les plus précieux et garder
+            un
+            souvenir impérissable.
+            Je me
+            déplace en Île de-France pour réaliser vos photos
+          </p>
+          <h5 class="h5 text-accent font-light mt-4">350€e/demi journée</h5>
+          <span class="text-white text-[13px] font-extralight">Matériel, déplacement inclus</span>
+        </div>
+        <!-- 2 -->
+        <div class="card w-1/4 max-lg:w-full border-r-[1px] border-b-[1px] border-accent pr-9 pb-10">
+          <h3 class="h3 text-accent font-light">Retouches</h3>
+
+          <p class="text-white text-sm font-extralight mt-4 mb-8">Vous souhaitez retoucher vos photos
+            pour un résultat professionnel ?
+            Bénéficier d’un rendu optimal pour
+            vos publications
+          </p>
+          <h5 class="h5 text-accent font-light mt-4">550€e/demi journée</h5>
+          <span class="text-white text-[13px] font-extralight">2 allez/retours par photo</span>
+        </div>
+        <!-- 3 -->
+        <div class="card w-1/4 max-lg:w-full border-r-[1px] border-b-[1px] border-accent pr-9 pb-10">
+          <h3 class="h3 text-accent font-light">Album photos</h3>
+
+          <p class="text-white text-sm font-extralight mt-4 mb-8">Partagez avec vos proches et vos
+            clients les photos des moments
+            partagés ensemble à travers un
+            album photo personnalisé
+          </p>
+          <h5 class="h5 text-accent font-light mt-4">400e album A4</h5>
+          <span class="text-white text-[13px] font-extralight">30 pages recto/verso</span>
+        </div>
+      </div>
+
+      <!-- Studion Pro -->
+      <div class="flex justify-between mb-10 mt-28">
+        <!-- title -->
+        <h1 class="titre-hero h1 font-light text-secondary text-left max-lg:text-center max-lg:text-[50px]">Studio pro
+        </h1>
+      </div>
+      <!--  -->
+      <div class="max-md:overflow-x-scroll max-md:overflow-y-hidden pb-5 has-scrollbar max-md:cursor-grab">
+        <!-- Tableau -->
+        <table
+          class="card w-full max-md:w-[150%] border-accent border-[1px] text-white font-extralight text-center max-md:cursor-grab">
+          <tr class="w-1/3 p-6">
+            <th class="border-[1px] border-accent p-4">Désignation</th>
+            <th class="border-[1px] border-accent p-4">Quantité</th>
+            <th class="border-[1px] border-accent p-4">Prix</th>
+          </tr>
+          <tr class="w-1/3 p-14 font-extralight">
+            <td class="border-[1px] border-accent p-16 font-extralight">Retouches photo studio professionnel</td>
+            <td class="border-[1px] border-accent p-16 font-extralight">x 800 photos</td>
+            <td class="border-[1px] border-accent p-16 font-extralight">3200€/800 photos</td>
+          </tr>
+          <tr class="w-1/3">
+            <td class="border-[1px] border-accent p-16 font-extralight">Assistant photo lumière professionnel</td>
+            <td class="border-[1px] border-accent p-16 font-extralight">x 2 sets studio</td>
+            <td class="border-[1px] border-accent p-16 font-extralight">1500€/journée</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+  <!-- hero end -->
+
+  <!--  -->
+
+  <!-- footer -->
+  <footer class="bg-white flex items-center py-10 max-md:py-8">
+    <div class="container mx-auto flex items-center justify-between px-3 max-md:flex-col">
+      <div class="max-md:mb-8">
+        <a href="tarif.html">
+          <img src="assets/img/logo.png" alt="logo">
+        </a>
+      </div>
+      <div class="max-md:mb-2 max-md:flex max-md:flex-col max-md:gap-y-4">
+        <a href="#" class="hover:text-accent transition-all duration-100">
+          <i class="bi bi-instagram ml-8 text-3xl max-md:ml-0 max-md:text-center max-md:p-4"></i>
+        </a>
+        <a href="#" class="hover:text-accent transition-all duration-100">
+          <i class="bi bi-twitter ml-8 text-3xl max-md:ml-0 max-md:text-center max-md:p-4"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <!-- SCRIPTS -->
+  <!-- Scroll reveal librairie js pour apparition au scroll-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+  <!-- Principale -->
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
+
+<!-- 925DEV -->

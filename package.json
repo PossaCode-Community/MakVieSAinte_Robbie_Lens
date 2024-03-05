@@ -1,0 +1,22 @@
+{
+  "name": "robbie-lens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i assets/css/input.css -o dist/output.css",
+    "watch": "tailwindcss -i assets/css/input.css -o dist/output.css --watch",
+    "production": "cross-env NODE_ENV=production postcss assets/css/input.css -o dist/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-import": "^16.0.1",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-cli": "^11.0.0"
+  }
+}
