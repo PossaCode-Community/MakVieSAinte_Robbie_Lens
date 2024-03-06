@@ -3,6 +3,8 @@ Robbie Lens Project
 Ceci est un projet fais avec tailwindCss, Installer tailwind avec le gestionnaire de paquet npm pour telecharger les node_modules.
 Puis executer le fichier watch.bat qui se trouve a la racine, pour voire les changements
 
+Lien du site 👉 https://65e8a0b49a97da20fc13eb6d--fluffy-granita-e128f4.netlify.app/
+
 
 
 https://github.com/PossaCode-Community/MakVieSAinte_Robbie_Lens/assets/125467048/ce152fa2-e040-433d-be8b-ad3de2797158
