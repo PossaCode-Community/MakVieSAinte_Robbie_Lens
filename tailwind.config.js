@@ -23,7 +23,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        primary: "Poppins",
+        primary: "Manrope",
       },
       backgroundImage: {
         element1: "url(./assets/img/accueil/element-1.png)",
