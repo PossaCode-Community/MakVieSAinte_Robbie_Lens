@@ -59,6 +59,7 @@
 /* My body */
 body {
     scroll-behavior: smooth !important;
+    font-family: Manrope !important;
 }
 
 /* Pour toggle le menu de nav version phone */
